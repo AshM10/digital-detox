@@ -6,13 +6,32 @@ import Words from "./assets/words.png";
 import Nap from "./assets/nap.png";
 import Memory from "./assets/memory.png";
 import Star from "./assets/star.png";
+import Holiday from "./assets/holiday.png";
+import Radio from "./assets/radio.png";
+import Idea from "./assets/idea.png";
 
 const quotes = [
+  {
+    quote: "Brainstorm some new ideas and thoughts.",
+    author: "Lightbulb",
+    image: Idea,
+  },
   {
     quote:
       "Remove yourself from online groups that you don't need to be in, so you get less notifications.",
     author: "Cross",
     image: Cross,
+  },
+  {
+    quote:
+      "Listen to the radio in your spare time rather than scrolling on your phone or watching telly.",
+    author: "Radio",
+    image: Radio,
+  },
+  {
+    quote: "Plan a holiday so you have something nice to look forward to.",
+    author: "Holiday",
+    image: Holiday,
   },
   {
     quote:
