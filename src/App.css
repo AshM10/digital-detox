@@ -2,13 +2,22 @@
   background-image: url(./assets/background.png);
   background-size: cover;
   background-position: center;
-  height: 590px;
+  height: 50rem;
   padding: 30px;
+}
+
+.Generator img {
+  width: 50%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  margin-top: 12rem;
+  margin-left: 5rem;
 }
 
 .Generator p {
   text-align: center;
-  margin-top: 230px;
+  margin-top: 10px;
   background-color: #d1b3c4;
   opacity: 75%;
   border-radius: 2rem;
@@ -29,6 +38,7 @@
 
 .Generator button:hover {
   transform: rotate(360deg);
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {

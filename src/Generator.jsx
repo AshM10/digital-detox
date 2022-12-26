@@ -27,9 +27,18 @@ function Generator() {
   return (
     <div className="Generator">
       {currentQuote && (
+        <img
+          src={currentQuote.image}
+          alt={`Picture of ${currentQuote.author}`}
+        />
+      )}
+      {currentQuote && (
         <p>
+          {/* <img
+            src={currentQuote.image}
+            alt={`Picture of ${currentQuote.author}`}
+          /> */}
           {currentQuote.quote}
-          {currentQuote.author && <span> - {currentQuote.author}</span>}
         </p>
       )}
       <button onClick={selectRandomQuote}>Get a new quote</button>
