@@ -26,6 +26,7 @@ function Generator() {
 
   return (
     <div className="Generator">
+      <button onClick={selectRandomQuote}>Click for Detox</button>
       {currentQuote && (
         <img
           src={currentQuote.image}
@@ -41,7 +42,6 @@ function Generator() {
           {currentQuote.quote}
         </p>
       )}
-      <button onClick={selectRandomQuote}>Get a new quote</button>
     </div>
   );
 }

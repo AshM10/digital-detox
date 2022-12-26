@@ -6,6 +6,11 @@
   padding: 30px;
 }
 
+.App h1 {
+  margin-top: 8rem;
+  text-align: center;
+}
+
 .Generator img {
   width: 50%;
   aspect-ratio: 3/2;
@@ -13,17 +18,19 @@
   mix-blend-mode: color-burn;
   display: block;
   margin: 0 auto;
-  margin-top: 12rem;
+  margin-top: 2rem;
 }
 
 .Generator p {
   text-align: center;
-  margin-top: 10px;
   background-color: #d1b3c4;
   opacity: 75%;
   border-radius: 2rem;
   padding: 1.5rem;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  max-width: 12rem;
+  display: block;
+  margin: 1rem auto;
 }
 
 .Generator button {
@@ -32,14 +39,22 @@
   border-radius: 2rem;
   padding: 1rem;
   border: none;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-  transform: rotate(0deg);
-  transition: transform 0.5s;
+  outline: none;
+  text-align: center;
+  box-shadow: 0 9px #999;
+  display: block;
+  margin: 0 auto;
 }
 
 .Generator button:hover {
-  transform: rotate(360deg);
   cursor: pointer;
+  background-color: #b392ac;
+}
+
+.Generator button:active {
+  background-color: #735d78;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 @media (max-width: 767px) {
