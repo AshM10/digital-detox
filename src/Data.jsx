@@ -1,6 +1,8 @@
 import Cross from "./assets/cross.png";
 import Folder from "./assets/folder.png";
 import Clock from "./assets/clock.png";
+import Selfie from "./assets/selfie.png";
+import Words from "./assets/words.png";
 
 const quotes = [
   {
@@ -18,6 +20,16 @@ const quotes = [
     quote: "Challenge yourself to 24 hours tech free.",
     author: "Clock",
     image: Clock,
+  },
+  {
+    quote: "Try drawing a selfie instead of snapping one.",
+    author: "Woman Line Art",
+    image: Selfie,
+  },
+  {
+    quote: "Write down some words that best describe you and your loved ones.",
+    author: "List of Words",
+    image: Words,
   },
 ];
 
