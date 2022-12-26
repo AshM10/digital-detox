@@ -1,3 +1,38 @@
+.App {
+  background-image: url(./assets/background.png);
+  background-size: cover;
+  background-position: center;
+  height: 590px;
+  padding: 30px;
+}
+
+.Generator p {
+  text-align: center;
+  margin-top: 230px;
+  background-color: #d1b3c4;
+  opacity: 75%;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
 .Generator button {
-  margin-top: 3rem;
+  background-color: #d1b3c4;
+  opacity: 75%;
+  border-radius: 2rem;
+  padding: 1rem;
+  border: none;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+}
+
+.Generator button:hover {
+  transform: rotate(360deg);
+}
+
+@media (max-width: 767px) {
+  .App {
+    background-size: cover;
+  }
 }

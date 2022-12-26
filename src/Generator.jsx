@@ -26,13 +26,13 @@ function Generator() {
 
   return (
     <div className="Generator">
-      <button onClick={selectRandomQuote}>Get a new quote</button>
       {currentQuote && (
         <p>
           {currentQuote.quote}
           {currentQuote.author && <span> - {currentQuote.author}</span>}
         </p>
       )}
+      <button onClick={selectRandomQuote}>Get a new quote</button>
     </div>
   );
 }
