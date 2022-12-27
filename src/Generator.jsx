@@ -30,7 +30,7 @@ function Generator() {
       {currentQuote && (
         <img
           src={currentQuote.image}
-          alt={`Picture of ${currentQuote.author}`}
+          alt={`Picture of ${currentQuote.altkey}`}
         />
       )}
       {currentQuote && (
