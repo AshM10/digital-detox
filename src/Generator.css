@@ -10,7 +10,7 @@
 .Generator p {
   text-align: center;
   background-color: #d1b3c4;
-  opacity: 75%;
+  opacity: 80%;
   border-radius: 2rem;
   padding: 1.5rem;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
@@ -18,11 +18,12 @@
   display: block;
   margin: 1rem auto;
   font-family: "Karla", sans-serif;
+  color: #735d78;
 }
 
 .Generator button {
   background-color: #d1b3c4;
-  opacity: 75%;
+  opacity: 80%;
   border-radius: 2rem;
   padding: 1rem;
   border: none;
@@ -35,17 +36,20 @@
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  color: #735d78;
 }
 
 .Generator button:hover {
   cursor: pointer;
   background-color: #b392ac;
+  color: #735d78;
 }
 
 .Generator button:active {
   background-color: #735d78;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+  color: #735d78;
 }
 
 @media (max-width: 900px) {
