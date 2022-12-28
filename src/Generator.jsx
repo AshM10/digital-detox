@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Data from "./Data";
-import "./App.css";
+import "./Generator.css";
 
 // This code defines a function called Generator that is a React component.
 // The Generator function uses the useState hook to define a state variable called currentQuote

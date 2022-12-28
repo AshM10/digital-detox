@@ -6,59 +6,44 @@
   padding: 30px;
 }
 
+/* font-family: 'Elsie', cursive;
+font-family: 'Karla', sans-serif; */
+
 .App h1 {
-  margin-top: 8rem;
+  margin-top: 3.5rem;
   text-align: center;
+  font-family: "Elsie", cursive;
+  font-size: 2.5rem;
+  opacity: 70%;
 }
 
-.Generator img {
-  width: 50%;
-  aspect-ratio: 3/2;
-  object-fit: contain;
-  mix-blend-mode: color-burn;
-  display: block;
-  margin: 0 auto;
+.App footer {
+  font-family: "Karla", sans-serif;
+  text-align: center;
   margin-top: 2rem;
+  color: #735d78;
+  opacity: 80%;
+  font-size: 14px;
 }
 
-.Generator p {
-  text-align: center;
-  background-color: #d1b3c4;
-  opacity: 75%;
-  border-radius: 2rem;
-  padding: 1.5rem;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-  max-width: 12rem;
-  display: block;
-  margin: 1rem auto;
-}
+@media (max-width: 900px) {
+  .App {
+    background-size: cover;
+    height: 69rem;
+  }
 
-.Generator button {
-  background-color: #d1b3c4;
-  opacity: 75%;
-  border-radius: 2rem;
-  padding: 1rem;
-  border: none;
-  outline: none;
-  text-align: center;
-  box-shadow: 0 9px #999;
-  display: block;
-  margin: 0 auto;
-}
-
-.Generator button:hover {
-  cursor: pointer;
-  background-color: #b392ac;
-}
-
-.Generator button:active {
-  background-color: #735d78;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  .App h1 {
+    margin-top: 11rem;
+  }
 }
 
 @media (max-width: 767px) {
   .App {
     background-size: cover;
+    height: 50rem;
+  }
+
+  .App h1 {
+    margin-top: 2rem;
   }
 }

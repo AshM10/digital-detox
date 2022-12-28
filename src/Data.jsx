@@ -15,12 +15,37 @@ import Donation from "./assets/donation.png";
 import Breakfast from "./assets/breakfast.png";
 import Project from "./assets/project.png";
 import Clean from "./assets/clean.png";
+import Language from "./assets/language.png";
+import Flowers from "./assets/flowers.png";
+import Staycation from "./assets/staycation.png";
+import Cosy from "./assets/cosy.png";
 
 const quotes = [
   {
     quote: "Brainstorm some new ideas and thoughts.",
     altkey: "Lightbulb",
     image: Idea,
+  },
+  {
+    quote: "Rearrange an area in your home, try creating a cosy corner.",
+    altkey: "Cosy corner",
+    image: Cosy,
+  },
+  {
+    quote: "Take yourself on a solo date or staycation.",
+    altkey: "Lady wearing a hat",
+    image: Staycation,
+  },
+  {
+    quote: "Plant some flowers in your garden or a window box.",
+    altkey: "Flowers",
+    image: Flowers,
+  },
+  {
+    quote:
+      "Why not try and learn a few words and phrases from another language.",
+    altkey: "Lips",
+    image: Language,
   },
   {
     quote: "Spring clean and tidy your home.",
