@@ -19,12 +19,57 @@ import Language from "./assets/language.png";
 import Flowers from "./assets/flowers.png";
 import Staycation from "./assets/staycation.png";
 import Cosy from "./assets/cosy.png";
+import Dance from "./assets/dance.png";
+import Song from "./assets/song.png";
+import Hair from "./assets/hair.png";
+import Face from "./assets/face.png";
+import Calendar from "./assets/calendar.png";
+import Pause from "./assets/pause.png";
+import Airplane from "./assets/airplane.png";
 
 const quotes = [
   {
     quote: "Brainstorm some new ideas and thoughts.",
     altkey: "Lightbulb",
     image: Idea,
+  },
+  {
+    quote: "Do something fun that you remember from your childhood.",
+    altkey: "Paper plane",
+    image: Airplane,
+  },
+  {
+    quote:
+      "Practise not responding immediately to every notification, set time aside to go back on these.",
+    altkey: "Pause",
+    image: Pause,
+  },
+  {
+    quote:
+      "Make time for periods of digital detox and write them down as you would any other appointment.",
+    altkey: "Calendar",
+    image: Calendar,
+  },
+  {
+    quote:
+      "Make yourself a home spa and give yourself a pamper, why not try a facial.",
+    altkey: "Facial Skincare",
+    image: Face,
+  },
+  {
+    quote: "Experiment with your look, try something new with your hair.",
+    altkey: "Hairstyle",
+    image: Hair,
+  },
+  {
+    quote: "Listen to your favorite song.",
+    altkey: "Musical notes",
+    image: Song,
+  },
+  {
+    quote: "Get up and dance like nobody is watching.",
+    altkey: "Dancing lady",
+    image: Dance,
   },
   {
     quote: "Rearrange an area in your home, try creating a cosy corner.",
