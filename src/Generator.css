@@ -1,5 +1,5 @@
 .Generator img {
-  width: 50%;
+  width: 25%;
   aspect-ratio: 3/2;
   object-fit: contain;
   mix-blend-mode: color-burn;
@@ -55,6 +55,10 @@
 }
 
 @media (max-width: 900px) {
+  .Generator img {
+    width: 50%;
+  }
+
   .Generator p {
     font-size: 1.4rem;
   }
