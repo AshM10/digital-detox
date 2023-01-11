@@ -26,12 +26,31 @@ import Face from "./assets/face.png";
 import Calendar from "./assets/calendar.png";
 import Pause from "./assets/pause.png";
 import Airplane from "./assets/airplane.png";
+import Food from "./assets/food.png";
+import Camera from "./assets/camera.png";
+import Shh from "./assets/shh.png";
 
 const quotes = [
   {
     quote: "Brainstorm some new ideas and thoughts.",
     altkey: "Lightbulb",
     image: Idea,
+  },
+  {
+    quote:
+      "Spend time in places where mobile phone use id frowned upon: Yoga class, group meditation, crafting groups.",
+    altkey: "Finger on lips",
+    image: Shh,
+  },
+  {
+    quote: "Screen free activities: Try a new hobby or get lost in an old one.",
+    altkey: "Camera",
+    image: Camera,
+  },
+  {
+    quote: "Put away your phone during meals.",
+    altkey: "Meal",
+    image: Food,
   },
   {
     quote: "Do something fun that you remember from your childhood.",
