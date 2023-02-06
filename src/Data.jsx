@@ -29,8 +29,100 @@ import Airplane from "./assets/airplane.png";
 import Food from "./assets/food.png";
 import Camera from "./assets/camera.png";
 import Shh from "./assets/shh.png";
+import Garden from "./assets/garden.png";
+import Menu from "./assets/menu.png";
+import Shopping from "./assets/shopping.png";
+import Friend from "./assets/friend.png";
+import Watch from "./assets/watch.png";
+import Hourglass from "./assets/hourglass";
+import Laptop from "./assets/laptop.png";
+import Conversation from "./assets/conversation.png";
+import Phone from "./assets/phone.png";
+import Chess from "./assets/chess.png";
+import Support from "./assets/support.png";
+import Unsubscribe from "./assets/unsubscribe.png";
+import Tracker from "./assets/tracker.png";
+import Book from "./assets/book.png";
 
 const quotes = [
+  {
+    quote: "Get out and do some gardening.",
+    altkey: "Greenhouse",
+    image: Garden,
+  },
+  {
+    quote: "Screen free activities: Get lost in a book.",
+    altkey: "woman reading a book",
+    image: Book,
+  },
+  {
+    quote:
+      "Track the amount of times you pick up your phone in a day - you will be surprised! Do this activity again in a week to see if it's less. ",
+    altkey: "woman holding a journal",
+    image: Tracker,
+  },
+  {
+    quote:
+      "Unsubscribe from unwanted emails. Less email notifications equals less digital distractions.",
+    altkey: "unsubscribe bell",
+    image: Unsubscribe,
+  },
+  {
+    quote:
+      "Let your friends and family know that you are on a digital detox and ask for their help and support.",
+    altkey: "supportive friend",
+    image: Support,
+  },
+  {
+    quote:
+      "Convert to black and white. One reason our devices are so alluring is that they're vibrant. Many smart phones now allow you to change the settings so that the entire phone appears in gray scale.",
+    altkey: "black and white chess board",
+    image: Chess,
+  },
+  {
+    quote:
+      "Take your work email off your phone (notify everyone in advance that you're doing this).",
+    altkey: "woman using phone",
+    image: Phone,
+  },
+  {
+    quote: "Have a proper conversation catching up with an old friend.",
+    altkey: "chat box",
+    image: Conversation,
+  },
+  {
+    quote:
+      "Set email preferences to receive emails hourly instead of as they happen.",
+    altkey: "laptop",
+    image: Laptop,
+  },
+  {
+    quote: "Set a timer to remind you to check your emails once an hour.",
+    altkey: "hourglass",
+    image: Hourglass,
+  },
+  {
+    quote:
+      "An old-fashiones watch will give you one less reason to constantly check your phone.",
+    altkey: "vintage watch",
+    image: Watch,
+  },
+  {
+    quote:
+      "Take a digital detox with someone else - you can encourage each other to keep going and plan activities together.",
+    altkey: "friends",
+    image: Friend,
+  },
+  {
+    quote: "Take yourself on a shopping trip.",
+    altkey: "Women shopping",
+    image: Shopping,
+  },
+  {
+    quote: "Visit a new restaurant.",
+    altkey: "Pasta",
+    image: Menu,
+  },
   {
     quote: "Brainstorm some new ideas and thoughts.",
     altkey: "Lightbulb",
