@@ -34,7 +34,7 @@ import Menu from "./assets/menu.png";
 import Shopping from "./assets/shopping.png";
 import Friend from "./assets/friend.png";
 import Watch from "./assets/watch.png";
-import Hourglass from "./assets/hourglass";
+import Hourglass from "./assets/hourglass.png";
 import Laptop from "./assets/laptop.png";
 import Conversation from "./assets/conversation.png";
 import Phone from "./assets/phone.png";
