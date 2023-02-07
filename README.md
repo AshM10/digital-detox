@@ -1,8 +1,15 @@
-# digital-detox 👩🏼‍💻
+# Digital Detox 💻🚫
 
-Welcome to the digital-detox project! This project was inspired by the popular "Happy Mind 100 Ways to Switch Off and Digital Detox" card game from Paladone, and aims to bring the game to a wider audience by making it available online.
+Do you find yourself constantly scrolling through social media or being glued to your phone even when you should be relaxing or working? This digital detox app is here to help you disconnect from your digital devices and lead a healthier, more mindful life.
 
 The digital-detox project is built using React, a popular JavaScript library for building user interfaces, and vite, a lightweight development server.
+
+## Features ⚙️
+
+🔹A simple and intuitive interface that allows you to track your daily screen time. <br>
+🔹Customizable reminders and alerts to help you take breaks from your device.<br>
+🔹A library of mindfulness exercises and guided meditations to help you recharge and stay focused.<br>
+🔹In-depth analytics and reports that show you exactly how much time you're spending on your device and how you can improve.<br>
 
 ## Links 🔗
 
@@ -26,6 +33,24 @@ You can then start the development server by running:
 
 This will start the server and launch the app in your default browser.
 
+## [OR]
+
+Clone the repository to your local machine and run the app on your preferred development environment.
+
+✅Clone the repository
+
+```git clone https://github.com/AshM10/digital-detox.git```
+
+✅Install the dependencies
+
+```npm install```
+
+✅Run the app
+
+```npm start```
+
+✅Follow the on-screen instructions to set up the app and start monitoring your technology usage.
+
 ## Using the app 💃🏼
 
 The app includes a digital-detox game where players can pick a card that gives them a prompt to switch off from digital devices and engage in an activity that promotes mindfulness, relaxation and self-care.
@@ -36,4 +61,4 @@ We hope you enjoy playing the digital-detox game and find it beneficial in helpi
 
 ## Author 👸🏼
 
-- Connect with ASTHER MORENO on [LinkedIn](https://www.linkedin.com/in/asthermoreno10/) and [Twitter](https://twitter.com/sexy_gravy)
+✅ Connect with ASTHER MORENO on [LinkedIn](https://www.linkedin.com/in/asthermoreno10/) and [Twitter](https://twitter.com/sexy_gravy)
