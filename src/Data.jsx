@@ -43,12 +43,61 @@ import Support from "./assets/support.png";
 import Unsubscribe from "./assets/unsubscribe.png";
 import Tracker from "./assets/tracker.png";
 import Book from "./assets/book.png";
+import Pet from "./assets/pet.png";
+import Recipe from "./assets/recipe.png";
+import Letter from "./assets/letter.png";
+import Nature from "./assets/nature.png";
+import Alarm from "./assets/alarm.png";
+import Read from "./assets/read.png";
+import Bike from "./assets/bike.png";
 
 const quotes = [
   {
     quote: "Get out and do some gardening.",
     altkey: "Greenhouse",
     image: Garden,
+  },
+  {
+    quote:
+      "Engage in nature activities like hiking, biking, camping or playing adventure games with friends, so that you will lose track of time and won't feel the urge to check your phone every five minutes.",
+    altkey: "couple biking",
+    image: Bike,
+  },
+  {
+    quote:
+      "Instead of scrolling, do something more productive and educational. Bring a book with you everywhere you go to fill the dead times.",
+    altkey: "flipping book",
+    image: Read,
+  },
+  {
+    quote:
+      "Buy a real alarm clock. Estimated 80% of smart phone users wake up and check their mobile phone first thing in the morning. Take time and wake up without looking at your phone.",
+    altkey: "vintage alarm clock",
+    image: Alarm,
+  },
+  {
+    quote:
+      "Take a technology free trip - a family or friend trip where there is no or minimal usage of your smart phone. Connect with friends, family and the outdoors.",
+    altkey: "beach and sunset",
+    image: Nature,
+  },
+  {
+    quote:
+      "Pick up a pen and paper. Explore sending cards, letters and leaving hand written notes.",
+    altkey: "snail mail",
+    image: Letter,
+  },
+  {
+    quote:
+      "Screen free activities: Cook something for your family and friends - use a cookbook or an old family recipe. ",
+    altkey: "woman cooking",
+    image: Recipe,
+  },
+  {
+    quote:
+      "Screen free activities: Go for a walk and see what animals you can see.",
+    altkey: "cat",
+    image: Pet,
   },
   {
     quote: "Screen free activities: Get lost in a book.",
