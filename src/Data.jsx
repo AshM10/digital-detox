@@ -152,7 +152,7 @@ const quotes = [
   },
   {
     quote:
-      "An old-fashiones watch will give you one less reason to constantly check your phone.",
+      "An old-fashioned watch will give you one less reason to constantly check your phone.",
     altkey: "vintage watch",
     image: Watch,
   },
@@ -179,7 +179,7 @@ const quotes = [
   },
   {
     quote:
-      "Spend time in places where mobile phone use id frowned upon: Yoga class, group meditation, crafting groups.",
+      "Spend time in places where mobile phone use is frowned upon: Yoga class, group meditation, crafting groups.",
     altkey: "Finger on lips",
     image: Shh,
   },
@@ -200,7 +200,7 @@ const quotes = [
   },
   {
     quote:
-      "Practise not responding immediately to every notification, set time aside to go back on these.",
+      "Practice not responding immediately to every notification, set time aside to go back on these.",
     altkey: "Pause",
     image: Pause,
   },
@@ -232,8 +232,8 @@ const quotes = [
     image: Dance,
   },
   {
-    quote: "Rearrange an area in your home, try creating a cosy corner.",
-    altkey: "Cosy corner",
+    quote: "Rearrange an area in your home, try creating a cozy corner.",
+    altkey: "Cozy corner",
     image: Cosy,
   },
   {
