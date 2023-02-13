@@ -4,7 +4,7 @@ Do you find yourself constantly scrolling through social media or being glued to
 
 The digital-detox project is built using React, a popular JavaScript library for building user interfaces, and vite, a lightweight development server.
 
-## Features ⚙️
+## Future Optimization ⚙️
 
 🔹A simple and intuitive interface that allows you to track your daily screen time. <br>
 🔹Customizable reminders and alerts to help you take breaks from your device.<br>
@@ -23,13 +23,13 @@ Live site on Netlify: [Digital Detox](https://digital-detox.netlify.app)
 
 To get started, please make sure you have the latest version of Node.js and yarn installed on your machine. Once you have that, you can clone the project and run the following command in the project directory:
 
-``` yarn install ```
+`yarn install`
 
 This will install all the necessary dependencies for the project to run.
 
 You can then start the development server by running:
 
-``` yarn dev ```
+`yarn dev`
 
 This will start the server and launch the app in your default browser.
 
@@ -39,15 +39,15 @@ Clone the repository to your local machine and run the app on your preferred dev
 
 ✅Clone the repository
 
-```git clone https://github.com/AshM10/digital-detox.git```
+`git clone https://github.com/AshM10/digital-detox.git`
 
 ✅Install the dependencies
 
-```npm install```
+`npm install`
 
 ✅Run the app
 
-```npm start```
+`npm start`
 
 ✅Follow the on-screen instructions to set up the app and start monitoring your technology usage.
 

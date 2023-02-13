@@ -50,12 +50,53 @@ import Nature from "./assets/nature.png";
 import Alarm from "./assets/alarm.png";
 import Read from "./assets/read.png";
 import Bike from "./assets/bike.png";
+import Leaf from "./assets/leaf.png";
+import Tea from "./assets/tea.png";
+import Journal from "./assets/journal.png";
+import Sun from "./assets/sun.png";
+import Chair from "./assets/chair.png";
+import Kitchen from "./assets/kitchen.png";
 
 const quotes = [
   {
     quote: "Get out and do some gardening.",
     altkey: "Greenhouse",
     image: Garden,
+  },
+  {
+    quote:
+      "Screen free activities: Organize a cupboard or spare room and get a great sense of job satisfaction.",
+    altkey: "kitchen utensils",
+    image: Kitchen,
+  },
+  {
+    quote:
+      "If you have trouble putting down your phone, try storing it in another room to discourage yourself from using it. ",
+    altkey: "desk chair",
+    image: Chair,
+  },
+  {
+    quote: "Go for a walk when you are tempted to use your device.",
+    altkey: "sunset in beach",
+    image: Sun,
+  },
+  {
+    quote:
+      "Keep a journal to track your digital detox progress and write down your thoughts about your experience.",
+    altkey: "woman journaling",
+    image: Journal,
+  },
+  {
+    quote:
+      "Try not to spend your breaks watching videos or scrolling on your phone. Instead go for a short walk, wash your mug, make a tea, look out the window, etc.",
+    altkey: "tea cup",
+    image: Tea,
+  },
+  {
+    quote:
+      "Go out after work if you didn't manage to go out during your work break.",
+    altkey: "leaf",
+    image: Leaf,
   },
   {
     quote:
