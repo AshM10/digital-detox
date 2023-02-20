@@ -56,12 +56,82 @@ import Journal from "./assets/journal.png";
 import Sun from "./assets/sun.png";
 import Chair from "./assets/chair.png";
 import Kitchen from "./assets/kitchen.png";
+import Cardgame from "./assets/cardgame.png";
+import Boardgame from "./assets/boardgame.png";
+import Pizza from "./assets/pizza.png";
+import Clipboard from "./assets/clipboard.png";
+import Puzzle from "./assets/puzzle.png";
+import Cake from "./assets/cake.png";
+import Yoga from "./assets/yoga.png";
+import Tree from "./assets/tree.png";
+import Cloud from "./assets/cloud.png";
+import Dumbbells from "./assets/dumbbells.png";
+import Open from "./assets/open.png";
 
 const quotes = [
   {
     quote: "Get out and do some gardening.",
     altkey: "Greenhouse",
     image: Garden,
+  },
+  {
+    quote:
+      "Walk to the shop to buy a magazine instead of reading the news and gossip online.",
+    altkey: "open sign",
+    image: Open,
+  },
+  {
+    quote: "Work up a sweat and try a new workout.",
+    altkey: "dumb bells",
+    image: Dumbbells,
+  },
+  {
+    quote:
+      "Go cloud spotting. Watch the clouds and see what shapes you can see.",
+    altkey: "fluffy cloud",
+    image: Cloud,
+  },
+  {
+    quote:
+      "On your next walk, take in your surroundings instead of looking at your phone. What do you notice when you look up and around that you haven't seen before?",
+    altkey: "tree",
+    image: Tree,
+  },
+  {
+    quote: "Try something mindful, such as yoga, meditation or visualization.",
+    altkey: "downward dog yoga pose",
+    image: Yoga,
+  },
+  {
+    quote: "Dust off your apron and bake a cake.",
+    altkey: "three tier cake",
+    image: Cake,
+  },
+  {
+    quote: "Start and complete a jigsaw puzzle. Try 1000 pieces or more.",
+    altkey: "puzzle pieces",
+    image: Puzzle,
+  },
+  {
+    quote:
+      "Set yourself a mini task list before you are allowed any screen time. For example 3 chores before you look at your phone.",
+    altkey: "clipboard",
+    image: Clipboard,
+  },
+  {
+    quote: "Try and recreate your favourite takeaway meal.",
+    altkey: "pizza",
+    image: Pizza,
+  },
+  {
+    quote: "Play a board game with friends or family.",
+    altkey: "board game pieces",
+    image: Boardgame,
+  },
+  {
+    quote: "Play a card game with friends or family.",
+    altkey: "game cards",
+    image: Cardgame,
   },
   {
     quote:
