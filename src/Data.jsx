@@ -67,12 +67,77 @@ import Tree from "./assets/tree.png";
 import Cloud from "./assets/cloud.png";
 import Dumbbells from "./assets/dumbbells.png";
 import Open from "./assets/open.png";
+import Compass from "./assets/compass.png";
+import Lamp from "./assets/lamp.png";
+import Plane from "./assets/plane.png";
+import Picnic from "./assets/picnic.png";
+import Candle from "./assets/candle.png";
+import Date from "./assets/date.png";
+import Monstera from "./assets/monstera.png";
+import Manicure from "./assets/manicure.png";
+import Umbrella from "./assets/umbrella.png";
+import Ebook from "./assets/ebook.png";
 
 const quotes = [
   {
     quote: "Get out and do some gardening.",
     altkey: "Greenhouse",
     image: Garden,
+  },
+  {
+    quote:
+      "Swap your E-book for a proper book. How great is it to turn the pages.",
+    altkey: "book with flowers growing from it",
+    image: Ebook,
+  },
+  {
+    quote: "Clear your mind. Get outside and go for a walk in the rain.",
+    altkey: "lady using an umbrella",
+    image: Umbrella,
+  },
+  {
+    quote: "Take yourself off for some me-time. Get a manicure or pedicure.",
+    altkey: "hands with beautiful nails",
+    image: Manicure,
+  },
+  {
+    quote: "Take a break and water your house plants.",
+    altkey: "monstera plant",
+    image: Monstera,
+  },
+  {
+    quote:
+      "When spending time with someone, be present. Avoid splitting your attention with your phone.",
+    altkey: "sweet couple",
+    image: Date,
+  },
+  {
+    quote: "Light a candle and cuddle up with a good book.",
+    altkey: "scented candle",
+    image: Candle,
+  },
+  {
+    quote: "Go on a picnic with a friend or family member.",
+    altkey: "picnic setup",
+    image: Picnic,
+  },
+  {
+    quote:
+      "Switch on flight mode. It's an excellent way to start small. This will help relax, focus, and resist temptation to scroll through social media.",
+    altkey: "flying airplane",
+    image: Plane,
+  },
+  {
+    quote:
+      "Have a few areas of the house where technology is off-limits. Enjoy the moment of spending quality time with people. Set times to start with, to get used to this.",
+    altkey: "book and lamp",
+    image: Lamp,
+  },
+  {
+    quote:
+      "Instead of using your phone to navigate, try going on a walk and enjoy wandering and exploring.",
+    altkey: "aesthetic compass",
+    image: Compass,
   },
   {
     quote:
