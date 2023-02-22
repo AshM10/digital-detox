@@ -77,12 +77,53 @@ import Monstera from "./assets/monstera.png";
 import Manicure from "./assets/manicure.png";
 import Umbrella from "./assets/umbrella.png";
 import Ebook from "./assets/ebook.png";
+import Tub from "./assets/tub.png";
+import Pen from "./assets/pen.png";
+import Calligraphy from "./assets/calligraphy.png";
+import Yarn from "./assets/yarn.png";
+import Bread from "./assets/bread.png";
+import Plant from "./assets/plant.png";
 
 const quotes = [
   {
     quote: "Get out and do some gardening.",
     altkey: "Greenhouse",
     image: Garden,
+  },
+  {
+    quote:
+      "Head out into nature. Go to the beach, woods, river, lake and just listen to the sounds around you.",
+    altkey: "flowers",
+    image: Plant,
+  },
+  {
+    quote:
+      "Spend time in the kitchen making something from scratch that you usually wouldn't. It could be pastry, pasta or bread.",
+    altkey: "bread",
+    image: Bread,
+  },
+  {
+    quote:
+      "Do some sewing, knitting or crochet. The repetitive nature will help reduce stress and anxiety.",
+    altkey: "ball of yarn rolling",
+    image: Yarn,
+  },
+  {
+    quote: "Have a go at calligraphy or creating a fun handwriting style.",
+    altkey: "breath in brush calligraphy",
+    image: Calligraphy,
+  },
+  {
+    quote:
+      "Mindful colouring lets you rest your brain and allows you to unwind.",
+    altkey: "hand holding a pen",
+    image: Pen,
+  },
+  {
+    quote:
+      "Ban technology from the bathroom. Enjoy a soak in the bath without your phone nearby.",
+    altkey: "lady taking a bath",
+    image: Tub,
   },
   {
     quote:
