@@ -83,12 +83,33 @@ import Calligraphy from "./assets/calligraphy.png";
 import Yarn from "./assets/yarn.png";
 import Bread from "./assets/bread.png";
 import Plant from "./assets/plant.png";
+import Heart from "./assets/heart.png";
+import Paint from "./assets/paint.png";
+import Thanks from "./assets/thanks.png";
 
 const quotes = [
   {
     quote: "Get out and do some gardening.",
     altkey: "Greenhouse",
     image: Garden,
+  },
+  {
+    quote:
+      "Write down a list of 10 things that you are grateful for that day. Try this for the last week or the last month too.",
+    altkey: "hearts",
+    image: Thanks,
+  },
+  {
+    quote:
+      "Spend some time drawing and being creative. Even if you just own a pen, you can be artistic.",
+    altkey: "paint brush and paint palette",
+    image: Paint,
+  },
+  {
+    quote:
+      "People enjoy helping others. The internet has made us stop asking people for help or advice. Next time ask someone.",
+    altkey: "hands holding hearts for support",
+    image: Heart,
   },
   {
     quote:
