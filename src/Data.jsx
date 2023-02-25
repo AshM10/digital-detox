@@ -86,12 +86,93 @@ import Plant from "./assets/plant.png";
 import Heart from "./assets/heart.png";
 import Paint from "./assets/paint.png";
 import Thanks from "./assets/thanks.png";
+import Gear from "./assets/gear.png";
+import Headphones from "./assets/headphones.png";
+import Speaker from "./assets/speaker.png";
+import Console from "./assets/console.png";
+import Runner from "./assets/runner.png";
+import Trophy from "./assets/trophy.png";
+import Meditation from "./assets/meditation.png";
+import Meditate from "./assets/meditate.png";
+import Sleep from "./assets/sleep.png";
+import Bed from "./assets/bed.png";
+import Reflect from "./assets/reflect.png";
+import Window from "./assets/window.png";
 
 const quotes = [
   {
     quote: "Get out and do some gardening.",
     altkey: "Greenhouse",
     image: Garden,
+  },
+  {
+    quote:
+      "Slow down and take in the world around you. Try people watching out the window.",
+    altkey: "woman looking out the train",
+    image: Window,
+  },
+  {
+    quote:
+      "Reflect on something that made you feel happy in the last 24 hours.",
+    altkey: "woman drinking coffee",
+    image: Reflect,
+  },
+  {
+    quote:
+      "Ban screen time in the bedroom between certain hours to avoid scrolling before bed and when you wake up.",
+    altkey: "cute bedroom",
+    image: Bed,
+  },
+  {
+    quote:
+      "Log off your phone at least 40 minutes before bed to allow your brain to switch off and get a better night's sleep.",
+    altkey: "woman waking up",
+    image: Sleep,
+  },
+  {
+    quote:
+      "Practice meditation. Breathing in through your nose and out through your mouth - focusing on your breath.",
+    altkey: "yoga pose",
+    image: Meditate,
+  },
+  {
+    quote:
+      "Smart device curfew. Set times when digital devices should not be used. Try meditating, contemplate and switch off.",
+    altkey: "yoga pose",
+    image: Meditation,
+  },
+  {
+    quote: "Write down your goals for the next year, 5 years and 10 years.",
+    altkey: "trophy",
+    image: Trophy,
+  },
+  {
+    quote: "Set internet-free hours and spaces.",
+    altkey: "runner",
+    image: Runner,
+  },
+  {
+    quote:
+      "Turn off notifications for certain apps or turn off your phone entirely for a while.",
+    altkey: "console",
+    image: Console,
+  },
+  {
+    quote:
+      "Have a notification-free day. Constant notifications can distract you from completing a task or relaxing. It seems daunting, but start by giving it a go for set hours. ",
+    altkey: "speaker",
+    image: Speaker,
+  },
+  {
+    quote:
+      "Ping-athon. Turn off the sound on notifications. This could be the first step to your digital detox.",
+    altkey: "headphones",
+    image: Headphones,
+  },
+  {
+    quote: "Commit to one day a month as tech-free.",
+    altkey: "gears",
+    image: Gear,
   },
   {
     quote:
